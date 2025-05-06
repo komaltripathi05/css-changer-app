@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Changer App </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>CHANGE THE CSS OF BELOW IMAGE! WITH THE HELP OF THE SLIDERS</h1>
+        <span class="heading">JavaScript</span>
+        <div class="css-controller">
+            <label for="base">Base Color</label>
+            <input type="color" name="base" id="base" value="#ff0000">
+
+            <label for="width">Width</label>
+            <input type="range" name="width" id="width" value="50" min="0" max="100" data-sizing="%">
+
+            <label for="border">Border Radius</label>
+            <input type="range" name="border-radius" id="border-radius" value="5" min="0" max="100" data-sizing="px">
+
+
+            <label for="padding">Padding</label>
+            <input type="range" name="padding" id="padding" value="5" min="10" max="200" data-sizing="px">
+
+            <label for="blur">Blur:</label>
+            <input type="range" name="blur" id="blur" value="0" min="0" max="25" data-sizing="px">
+        </div>
+        <img src="https://cdn.pixabay.com/photo/2024/04/10/22/52/autumn-8688876_1280.jpg" alt="Image from">
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
